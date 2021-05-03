@@ -1,0 +1,25 @@
+#water-bottle-image{
+    display: block;
+    max-width: 450px;
+    max-height: 894px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 25px;
+    padding: 1vh;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+#price {
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}

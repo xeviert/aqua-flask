@@ -5,7 +5,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                Footer
+                Aqua Flask © 2021
             </footer>
         )
     }
