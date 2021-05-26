@@ -14,7 +14,7 @@ export default class Home extends Component {
                     <h2>Lorem ipsum dolor sit.</h2>
                     <img src="/images/waterbottle.jpg" id="water-bottle-image" />
 
-                    <div>
+                    <div id='item-description'>
                         <ul>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere volutpat bibendum. Maecenas at faucibus lorem. Vestibulum laoreet neque molestie turpis auctor ultrices condimentum in tellus. Curabitur semper sodales velit a volutpat. Phasellus a metus venenatis, vulputate sem non, cursus velit.</li>
                             <li>Vivamus ac nunc urna. Curabitur ultrices accumsan consectetur. Nulla facilisi. Morbi ullamcorper libero risus, quis imperdiet mi mollis ac. Nam non enim placerat, aliquam enim eu, gravida arcu. Integer imperdiet elit convallis, facilisis justo nec, scelerisque neque.</li>
@@ -25,9 +25,7 @@ export default class Home extends Component {
                     <div id="price">
                         $99.99
                     </div>
-                    <Link to='/checkout'>
-                    <button>Buy Now</button>
-                    </Link>
+                    
                 </div>
             </div>
         )

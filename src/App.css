@@ -4,7 +4,8 @@ h2 {
 
 .page-body {
   margin: clamp(.5em, 5vw, 8em);
-}
+  padding-right: calc(25vh);
+  font-size: clamp(1rem, 2.5vw, 2rem); }
 
 @media all and (min-width: 600px) {
   
@@ -21,7 +22,7 @@ h2 {
     font-size: 30px;
   }
   .page-body {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 }
